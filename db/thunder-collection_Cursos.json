@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Cursos",
+    "dateExported": "2024-02-26T07:41:18.243Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "258477d9-3278-4897-aa8c-2f32ffbcda4c",
+            "colId": "3c22c591-9596-4916-b371-9110048fbd90",
+            "containerId": "",
+            "name": "cursosPost",
+            "url": "http://localhost:3000/api/cursos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-26T04:33:13.976Z",
+            "modified": "2024-02-26T07:38:22.631Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreCurso\": \"Mate123\",\n  \"descripcion\": \"Curso de matematica pura\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d90c9471-76fc-46bc-b406-e7ec1f9b9645",
+            "colId": "3c22c591-9596-4916-b371-9110048fbd90",
+            "containerId": "",
+            "name": "cursosGet",
+            "url": "http://localhost:3000/api/cursos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-26T04:50:55.527Z",
+            "modified": "2024-02-26T05:15:56.100Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ec01cb5b-f5f9-4337-a037-496fde95e70c",
+            "colId": "3c22c591-9596-4916-b371-9110048fbd90",
+            "containerId": "",
+            "name": "cursosPut",
+            "url": "http://localhost:3000/api/cursos/put",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-26T05:42:53.935Z",
+            "modified": "2024-02-26T07:03:00.246Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreCurso\":\"Fifu12\",\n  \"nuevoNombre\":\"Sociales\",\n  \"descripcion\":\"Historia\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7bcc211c-50c9-4f85-8d78-2f67082cc6ce",
+            "colId": "3c22c591-9596-4916-b371-9110048fbd90",
+            "containerId": "",
+            "name": "cursosDelete",
+            "url": "http://localhost:3000/api/cursos/delete",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-02-26T07:11:35.549Z",
+            "modified": "2024-02-26T07:40:23.265Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreCurso\": \"Sociales\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-02-26T07:41:22.611Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b0f4fd83-1587-499e-8fcd-36d8069a565d",
+            "colId": "977e3bd6-2147-4be8-aa9a-aaa6478c07be",
+            "containerId": "",
+            "name": "loginGet",
+            "url": "http://localhost:3000/api/login",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-26T02:11:13.865Z",
+            "modified": "2024-02-26T07:40:42.286Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"correo\": \"profesor1@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

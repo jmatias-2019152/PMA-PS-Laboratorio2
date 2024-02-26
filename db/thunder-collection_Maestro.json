@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Maestro",
+    "dateExported": "2024-02-26T07:41:26.148Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c170d442-3ec9-4587-9476-82897c333b7a",
+            "colId": "58831697-8755-4b91-b9b1-29d96559bf5d",
+            "containerId": "",
+            "name": "maestroPost",
+            "url": "http://localhost:3000/api/maestros",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-25T23:41:32.260Z",
+            "modified": "2024-02-26T02:10:17.175Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\": \"profesor1@gmail.com\",\n  \"password\": \"123456\",\n  \"nombre\": \"Jose\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
